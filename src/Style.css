@@ -1,0 +1,47 @@
+/* /* * {
+  background-color:;
+} */
+*/ .App {
+  text-align: center;
+}
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Wrapper {
+  background: #000;
+  padding: 150px;
+  border-radius: 10%;
+  box-shadow: 0 1px 4px 0 black;
+  display: inline-block;
+}
+.Input-Wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  align-items: center;
+  border-radius: 20px;
+  /* height: ; */
+  margin-right: 20px;
+}
+.input {
+  /* display: flex; */
+  border-radius: 20%;
+  border: 0;
+  background-color: white;
+  width: 750px;
+  padding: 5px;
+  height: 25px;
+}
+.Input-Wrapper button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 0;
+  display: block;
+} 
